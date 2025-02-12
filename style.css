@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+    /* border: .1rem solid white; */
+}
+
+
+:root{
+    --green-clr: #DFFE02;
+    --gry-clr: #898989;
+    --dark-blue-clr:#171C22;
+
+}
+.bg-green{
+    background-color: var(--green-clr);
+}
+.bg-dark-blue{
+    background-color: var(--dark-blue-clr);
+}
+.txt-green{
+    color: var(--green-clr);
+}
+.txt-grey{
+    color: var(--gry-clr);
+}
+
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+.navbar-logo{
+    width: 6.5rem;
+    height: 5rem;
+}
+.mybtn{
+    border: .1rem solid var(--green-clr) !important;
+    padding: .5rem 1.6rem;
+}
+.mybtn:hover{
+    background: white;
+    color: var(--green-clr) !important;
+
+}
+/* .nav-item{
+    color:#DFFE02
+} */
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 2.2rem;
+}
+.nav-link{
+    color: white;
+   
+}
+.nav-link:hover{
+    color: #DFFE02;
+    text-decoration: underline;
+}
+
+.image-container{
+    width: 32rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border-top: 1rem solid white;
+    border-bottom: 1rem solid white;
+    background-image: url(images/profile\ image.webp);
+    background-position: center;
+    background-size: 120%;
+    box-shadow: 
+    0 0 1rem white,
+    inset 0 0 1rem white,
+    0 0 2rem var(--green-clr),
+    inset 0 0 2rem var(--green-clr),
+    0 0 7rem var(--green-clr),
+    inset 0 0 4rem var(--green-clr) ;
+}
+.hero-section{
+    min-height: 88vh;
+}
+h1{
+    font-size: 4rem;
+    font-family: "Merriweather Sans", serif;
+}
+.p{
+    font-size: .95rem;
+}
+.para{
+    max-width: 500px;
+}
+.main-txt{
+    letter-spacing: .2rem;
+    font-size: .8rem;
+}
+.about-me{
+    width: 35rem;
+}
+.section-container{
+    padding-block: 5rem;
+}
+
+.hover-card:hover{
+    background: var(--green-clr);
+    
+}
+.hover-card:hover *{
+    color: black !important;
+}
+.mycard{
+    width: 21rem;
+}
+.blogcard{
+    width: 24rem;
+}
+form{
+    width: 33rem;
+}
+.form-control{
+    border: .1rem solid var(--green-clr);
+}
+.form-control:focus{
+    box-shadow: none;
+    border: .1rem solid var(--gry-clr);
+}
+#floatingTextarea{
+    resize: none;
+    height: 20vh;
+}
+.line{
+    background: rgba(255, 255, 255, 0.348);
+    height: .1rem;
+    width: 100%;
+}
+.profile{
+    
+    width: 3rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prev,
+.next{
+    font-size: 1.2rem;
+    padding: .5rem .6rem;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and(max-width:680px){
+        h1{
+            font-size: 2.7rem;
+        }
+        .image-container{
+            width: 20rem;
+        }
+        .hero-section{
+            min-height: 75vh;
+        }
+        .about-me{
+            width: 23rem;
+        }
+        form{
+            width: 25rem;
+        }
+    }
+    
