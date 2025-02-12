@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="bg-black">
+    <!--nav bar start here-->
+    <nav class="navbar navbar-expand-lg  py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+
+                </ul>
+                <a class="btn mybtn rounded-0 text-uppercase bg-green" href="#" role="button">Let's Talk</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--All section start here-->
+    <main>
+        <section id="Home" class="hero-section  d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center gap-3 gap-lg-0">
+                    <div class="col-lg-6">
+                        <span class="text-white text-uppercase main-txt">HELLO I'M</span>
+                        <h1 class="text-white fw-bold">SOFTWARE ENGINEER</h1>
+                        <p class="text-white my-4 para">
+                            Hi, I am Ashna Shabbir.I am passionate about creating efficient, scalable, and user-friendly
+                            software solutions.
+                            With a strong foundation in programming languages like C , C# , HTML , CSS , ASP.NET (MVC),
+                            I design and build applications that solve real-world problems.
+                        </p>
+                        <a class="btn mybtn rounded-0 text-uppercase bg-green" href="#" role="button">View Portfolio</a>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="image-container mx-auto"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="About"   class="section-container">
+            <div class="container">
+                <div class="row align-items-center gap-5 gap-lg-0">
+                    <div class="col-lg-6 order-last order-lg-first">
+                        <div class="about-me glow">
+                            <img src="images/about me picture.jpg" alt="About Me" class="About-Me">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <span class="text-white text-uppercase main-txt">Let me introduce myself</span>
+                        <h2 class="txt-green fw-semibold"> ABOUT ME</h2>
+                        <p class="text-white  para">To seek and maintain a full-time position that
+                            offers professional challenges utilizing interpersonal
+                            skills,excellent time management, and problems solving skills. A hardworking and passionate
+                            job seeker with strong organizational skills eager to secure an entry-level position. Ready
+                            to help the team
+                            achieve company goals.
+                        </p>
+                        <h5 class="txt-green">Contact Me</h5>
+                        <p class="text-white para">Feel free to contact me.
+                            <a href="#" class="txt-green d-block">ashnashabbir1800@gmail.com</a>
+                        </p>
+                        <a class="btn mybtn rounded-0 text-uppercase bg-green" href="#" role="button">HIRE ME</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="service" class="section-container">
+            <div class="container text-center">
+                <span class="text-white text-uppercase main-txt">what i will do for you</span>
+                <h2 class="txt-green fw-semibold"> SERVICES</h2>
+                <div class="row mt-5 gap-4 gap-lg-0">
+                    <div class="col-lg-4">
+                        <div class="card bg-dark-blue py-5 glow hover-card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-desktop d-block fs-1 txt-green mb-4"></i>
+                                <span class="text-white text-uppercase main-txt">4 projects</span>
+                                <h5 class="card-title text-white fs-4 mb-3">Web Design</h5>
+                                <p class="card-text txt-grey">offering tailored web design service to craft visually
+                                    stunning user-friendly website that enhance your brand presence. </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card bg-dark-blue py-5 glow hover-card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-pen-ruler d-block fs-1 txt-green mb-4"></i>
+                                <span class="text-white text-uppercase main-txt">4 projects</span>
+                                <h5 class="card-title text-white fs-4 mb-3">Database Design</h5>
+                                <p class="card-text txt-grey">offering tailored database design service to craft
+                                    visually
+                                    stunning user-friendly website that enhance your brand presence. </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card bg-dark-blue py-5 glow hover-card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-file-code d-block fs-1 txt-green mb-4"></i>
+                                <span class="text-white text-uppercase main-txt">4 projects</span>
+                                <h5 class="card-title text-white fs-4 mb-3">Web Development</h5>
+                                <p class="card-text txt-grey">offering tailored web design service to craft visually
+                                    stunning user-friendly website that enhance your brand presence. </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="Portfolio" class="section-container">
+            <div class="container text-center">
+                <span class="text-white text-uppercase main-txt">some of my recent work</span>
+                <h2 class="card-title txt-green fs-4 mb-3">Portfolio</h2>
+                <div class="row justify-content-center mt-5 gap-5">
+                    <div class="col-lg-4 mycard glow">
+                        <div class="card bg-dark-blue ">
+                            <img src="images/project1.jpg" class="card-img-top" alt="view scap">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">View scap</h5>
+                                <p class="card-text txt-grey">Building cutting edge website with responsive design.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mycard glow">
+                        <div class="card bg-dark-blue ">
+                            <img src="images/project2.jpg" class="card-img-top" alt="currency plus">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">currency plus</h5>
+                                <p class="card-text txt-grey">Building cutting edge website with responsive design.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mycard glow">
+                        <div class="card bg-dark-blue ">
+                            <img src="images/project3.jpg" class="card-img-top" alt="Bazzar bay">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Bazzar Bay</h5>
+                                <p class="card-text txt-grey">Building cutting edge website with responsive design.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-5 gap-5">
+                    <div class="col-lg-4 mycard glow">
+                        <div class="card bg-dark-blue ">
+                            <img src="images/project4.jpg" class="card-img-top" alt="Brain Booster">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Brain Booster</h5>
+                                <p class="card-text txt-grey">Building cutting edge website with responsive design.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mycard glow">
+                        <div class="card bg-dark-blue ">
+                            <img src="images/project5.jpg" class="card-img-top" alt="Melody mingle">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Melody mingle</h5>
+                                <p class="card-text txt-grey">Building cutting edge website with responsive design.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mycard glow">
+                        <div class="card bg-dark-blue ">
+                            <img src="images/project6.jpg" class="card-img-top" alt="Citrus Splash">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Citrus Splash</h5>
+                                <p class="card-text txt-grey">Building cutting edge website with responsive design.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="Work" class="section-container">
+            <div class="container text-center">
+                <span class="text-white text-uppercase main-txt">what my client say</span>
+                <h2 class="card-title txt-green fs-4 mb-3">Testimonial</h2>
+                <div class="swiper mySwiper mt-5">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide bg-dark-blue p-4">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="profile">
+                                        <img src="images/client 1.jpg" alt="client">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 text-start">
+                                    <h5 class="text-white">William jackson</h5>
+                                    <p class="text-white"> Designer</p>
+
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="txt-grey text-start"> I’ve been using this software for a few months now, and I’m thoroughly impressed.
+                                    It’s incredibly intuitive, easy to navigate, and packed with features that make my
+                                    workflow more efficient. The user interface is sleek and modern, which makes it a
+                                    pleasure to work with every day.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide bg-dark-blue p-4">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="profile">
+                                        <img src="images/blog 2.jpg" alt="client2">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 text-start">
+                                    <h5 class="text-white">Ali Haider</h5>
+                                    <p class="text-white "> Web Designer</p>
+
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="txt-grey text-start"> I’ve been using this software for a few months now, and I’m thoroughly impressed.
+                                    It’s incredibly intuitive, easy to navigate, and packed with features that make my
+                                    workflow more efficient. The user interface is sleek and modern, which makes it a
+                                    pleasure to work with every day.</p>
+                            </div>
+                        </div>
+                       
+                        <div class="swiper-slide bg-dark-blue p-4">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="profile">
+                                        <img src="images/client 3.jpg" alt="client3">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 text-start">
+                                    <h5 class="text-white">Harry</h5>
+                                    <p class="text-white"> Web developer</p>
+
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="txt-grey text-start"> I’ve been using this software for a few months now, and I’m thoroughly impressed.
+                                    It’s incredibly intuitive, easy to navigate, and packed with features that make my
+                                    workflow more efficient. The user interface is sleek and modern, which makes it a
+                                    pleasure to work with every day.</p>
+                            </div>
+                        </div>
+                       
+                        <div class="swiper-slide bg-dark-blue p-4">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="profile">
+                                        <img src="images/client 4.jpg" alt="client4">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 text-start">
+                                    <h5 class="text-white">MariaB</h5>
+                                    <p class="text-white"> Designer</p>
+
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="txt-grey text-start"> I’ve been using this software for a few months now, and I’m thoroughly impressed.
+                                    It’s incredibly intuitive, easy to navigate, and packed with features that make my
+                                    workflow more efficient. The user interface is sleek and modern, which makes it a
+                                    pleasure to work with every day.</p>
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                   <div class="control mt-5 d-flex justify-content-center gap-4">
+                    <i class="fa-solid fa-arrow-left bg-green prev"></i>
+                    <i class="fa-solid fa-arrow-right bg-green next"></i>
+
+                   </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <section id="Blog" class="section-container">
+            <div class="container text-center">
+                <span class="text-white text-uppercase main-txt">Latest blog</span>
+                <h2 class="card-title txt-green fs-4 mb-3">BLOG</h2>
+                <div class="row justify-content-center mt-5 gap-5">
+                    <div class="col-lg-4 blogcard glow">
+                        <div class="card bg-dark-blue px-3 pb-3">
+                            <img src="images/blog 1.jpg" class="card-img-top" alt="Programming Prespective">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Programming Prespective</h5>
+                                <p class="card-text txt-grey">Building cutting edge website with responsive design.</p>
+                                <a class="btn mybtn rounded-0 text-uppercase bg-green" href="#" role="button">View
+                                    Blog</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 blogcard glow">
+                        <div class="card bg-dark-blue px-3 pb-3">
+                            <img src="images/blog 2.jpg" class="card-img-top" alt="Web Development & AI">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Web Development & AI</h5>
+                                <p class="card-text txt-grey">Building cutting edge website with responsive design.</p>
+                                <a class="btn mybtn rounded-0 text-uppercase bg-green" href="#" role="button">View
+                                    Blog</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 blogcard glow">
+                        <div class="card bg-dark-blue px-3 pb-3">
+                            <img src="images/blog 3.jpg" class="card-img-top" alt="Design Pattern & Principle">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Design Pattern & Principle</h5>
+                                <p class="card-text txt-grey">Building cutting edge website with responsive design.</p>
+                                <a class="btn mybtn rounded-0 text-uppercase bg-green" href="#" role="button">View
+                                    Blog</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="Contact" class="section-container">
+            <div class="container text-center">
+                <span class="text-white text-uppercase main-txt">get in touch</span>
+                <h2 class="card-title txt-green fs-4 mb-3">CONTACT</h2>
+                <form class="bg-green mx-auto px-4 py-5 rounded-3 mt-5">
+                    <div class="mb-4">
+                        <input type="email" class="form-control  py-2" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="Your Nme">
+                    </div>
+                    <div class="mb-4">
+
+                        <input type="password" class="form-control py-2" id="exampleInputPassword1"
+                            placeholder="your email">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" class="form-control py-2" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="your subject">
+                    </div>
+                    <div class="mb-4">
+                        <textarea class="form-control" placeholder="your message" id="floatingTextarea"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn mybtn text-white rounded-0 text-uppercase bg-black">Send
+                        message</button>
+                </form>
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <!-- footer start here -->
+    <footer class="mt-3">
+        <div class="container">
+            <div class="line"></div>
+            <div class="row mt-3 gap-4 gap-lg-0">
+                <div class="col-lg-6 d-flex  justify-content-sm-start justify-content-center">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f txt-green fs-5"></i>
+                    </a>
+                    <a href="#" class="ms-3">
+                        <i class="fa-brands fa-twitter txt-green fs-5"></i>
+                    </a>
+                    <a href="#" class="ms-3">
+                        <i class="fa-brands fa-behance txt-green fs-5"></i>
+                    </a>
+                    <a href="#" class="ms-3">
+                        <i class="fa-brands fa-instagram txt-green fs-5"></i>
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <p class="txt-grey text-lg-end text-center>
+                    copyright &copy; 2025-All rights are reserved by portfolio
+                </p>
+            
+            </div>
+        </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                        crossorigin="anonymous">
+                        </script>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+                            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+                            crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
