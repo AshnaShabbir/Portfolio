@@ -103,7 +103,23 @@ h1{
 }
 .about-me{
     width: 35rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border-top: 1rem solid white;
+    border-bottom: 1rem solid white;
+    background-image: url(images/about\ me\ picture.jpg);
+    background-position: center;
+    background-size: 120%;
+    box-shadow: 
+    0 0 1rem white,
+    inset 0 0 1rem white,
+    0 0 2rem var(--green-clr),
+    inset 0 0 2rem var(--green-clr),
+    0 0 7rem var(--green-clr),
+    inset 0 0 4rem var(--green-clr) ;
 }
+
+
 .section-container{
     padding-block: 5rem;
 }
